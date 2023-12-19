@@ -1,0 +1,125 @@
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `id`, `name`, `dob`, `maritalStatus`, `email`, `mobileNumber`, `UAN`, `passportNumber`, `passportValidityTo`, `bankAccountNumber`, `IFSC`, `aadharNumber`, `panNumber`, `employeeId`, `underPF`, `underESIC`, `presentAddress`, `permanentAddress`, `fatherName`, `fatherDOB`, `motherName`, `motherDOB`, `bankName`, `husbandName`, `husbandDOB`, `electionCardNumber`, `licenseNumber`, `licenseValidityTo`, `rationCardNumber`, `memberId`, `esicNumber`, `createdDate`, `updatedDate`, `deletedDate` FROM `EmployeePF` AS `EmployeePF` WHERE (`EmployeePF`.`deletedDate` IS NULL AND `EmployeePF`.`email` IS NOT NULL);
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `id`, `name`, `dob`, `maritalStatus`, `email`, `mobileNumber`, `UAN`, `passportNumber`, `passportValidityTo`, `bankAccountNumber`, `IFSC`, `aadharNumber`, `panNumber`, `employeeId`, `underPF`, `underESIC`, `presentAddress`, `permanentAddress`, `fatherName`, `fatherDOB`, `motherName`, `motherDOB`, `bankName`, `husbandName`, `husbandDOB`, `electionCardNumber`, `licenseNumber`, `licenseValidityTo`, `rationCardNumber`, `memberId`, `esicNumber`, `createdDate`, `updatedDate`, `deletedDate` FROM `EmployeePF` AS `EmployeePF` WHERE (`EmployeePF`.`deletedDate` IS NULL AND `EmployeePF`.`email` IS NOT NULL);
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `id`, `name`, `dob`, `maritalStatus`, `email`, `mobileNumber`, `UAN`, `passportNumber`, `passportValidityTo`, `bankAccountNumber`, `IFSC`, `aadharNumber`, `panNumber`, `employeeId`, `underPF`, `underESIC`, `presentAddress`, `permanentAddress`, `fatherName`, `fatherDOB`, `motherName`, `motherDOB`, `bankName`, `husbandName`, `husbandDOB`, `electionCardNumber`, `licenseNumber`, `licenseValidityTo`, `rationCardNumber`, `memberId`, `esicNumber`, `createdDate`, `updatedDate`, `deletedDate` FROM `EmployeePF` AS `EmployeePF` WHERE (`EmployeePF`.`deletedDate` IS NULL AND `EmployeePF`.`email` IS NOT NULL);
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `id`, `name`, `dob`, `maritalStatus`, `email`, `mobileNumber`, `UAN`, `passportNumber`, `passportValidityTo`, `bankAccountNumber`, `IFSC`, `aadharNumber`, `panNumber`, `employeeId`, `underPF`, `underESIC`, `presentAddress`, `permanentAddress`, `fatherName`, `fatherDOB`, `motherName`, `motherDOB`, `bankName`, `husbandName`, `husbandDOB`, `electionCardNumber`, `licenseNumber`, `licenseValidityTo`, `rationCardNumber`, `memberId`, `esicNumber`, `createdDate`, `updatedDate`, `deletedDate` FROM `EmployeePF` AS `EmployeePF` WHERE (`EmployeePF`.`deletedDate` IS NULL AND `EmployeePF`.`email` IS NOT NULL);
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `id`, `name`, `dob`, `maritalStatus`, `email`, `mobileNumber`, `UAN`, `passportNumber`, `passportValidityTo`, `bankAccountNumber`, `IFSC`, `aadharNumber`, `panNumber`, `employeeId`, `underPF`, `underESIC`, `presentAddress`, `permanentAddress`, `fatherName`, `fatherDOB`, `motherName`, `motherDOB`, `bankName`, `husbandName`, `husbandDOB`, `electionCardNumber`, `licenseNumber`, `licenseValidityTo`, `rationCardNumber`, `memberId`, `esicNumber`, `createdDate`, `updatedDate`, `deletedDate` FROM `EmployeePF` AS `EmployeePF` WHERE (`EmployeePF`.`deletedDate` IS NULL AND `EmployeePF`.`email` IS NOT NULL);
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `id`, `name`, `dob`, `maritalStatus`, `email`, `mobileNumber`, `UAN`, `passportNumber`, `passportValidityTo`, `bankAccountNumber`, `IFSC`, `aadharNumber`, `panNumber`, `employeeId`, `underPF`, `underESIC`, `presentAddress`, `permanentAddress`, `fatherName`, `fatherDOB`, `motherName`, `motherDOB`, `bankName`, `husbandName`, `husbandDOB`, `electionCardNumber`, `licenseNumber`, `licenseValidityTo`, `rationCardNumber`, `memberId`, `esicNumber`, `createdDate`, `updatedDate`, `deletedDate` FROM `EmployeePF` AS `EmployeePF` WHERE (`EmployeePF`.`deletedDate` IS NULL AND `EmployeePF`.`email` IS NOT NULL);
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `id`, `name`, `dob`, `maritalStatus`, `email`, `mobileNumber`, `UAN`, `passportNumber`, `passportValidityTo`, `bankAccountNumber`, `IFSC`, `aadharNumber`, `panNumber`, `employeeId`, `underPF`, `underESIC`, `presentAddress`, `permanentAddress`, `fatherName`, `fatherDOB`, `motherName`, `motherDOB`, `bankName`, `husbandName`, `husbandDOB`, `electionCardNumber`, `licenseNumber`, `licenseValidityTo`, `rationCardNumber`, `memberId`, `esicNumber`, `createdDate`, `updatedDate`, `deletedDate` FROM `EmployeePF` AS `EmployeePF` WHERE (`EmployeePF`.`deletedDate` IS NULL AND `EmployeePF`.`email` IS NOT NULL);
+Executing (default): INSERT INTO `emailEncrypt` (`id`,`email`,`encryptEmail`,`createdDate`,`updatedDate`) VALUES (?,?,?,?,?);
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `id`, `name`, `dob`, `maritalStatus`, `email`, `mobileNumber`, `UAN`, `passportNumber`, `passportValidityTo`, `bankAccountNumber`, `IFSC`, `aadharNumber`, `panNumber`, `employeeId`, `underPF`, `underESIC`, `presentAddress`, `permanentAddress`, `fatherName`, `fatherDOB`, `motherName`, `motherDOB`, `bankName`, `husbandName`, `husbandDOB`, `electionCardNumber`, `licenseNumber`, `licenseValidityTo`, `rationCardNumber`, `memberId`, `esicNumber`, `createdDate`, `updatedDate`, `deletedDate` FROM `EmployeePF` AS `EmployeePF` WHERE (`EmployeePF`.`deletedDate` IS NULL AND (`EmployeePF`.`email` IS NOT NULL AND `EmployeePF`.`email` LIKE '%@%'));
+Executing (default): INSERT INTO `emailEncrypt` (`id`,`email`,`encryptEmail`,`pfId`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?);
+Executing (default): INSERT INTO `emailEncrypt` (`id`,`email`,`encryptEmail`,`pfId`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?);
+Executing (default): INSERT INTO `emailEncrypt` (`id`,`email`,`encryptEmail`,`pfId`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?);
+Executing (default): INSERT INTO `emailEncrypt` (`id`,`email`,`encryptEmail`,`pfId`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?);
+Executing (default): INSERT INTO `emailEncrypt` (`id`,`email`,`encryptEmail`,`pfId`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?);
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `id`, `email` FROM `EmployeePF` AS `EmployeePF` WHERE (`EmployeePF`.`deletedDate` IS NULL AND (`EmployeePF`.`email` IS NOT NULL AND `EmployeePF`.`email` LIKE '%@%'));
+Executing (default): INSERT INTO `emailEncrypt` (`id`,`email`,`encryptEmail`,`pfId`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?);
+Executing (default): INSERT INTO `emailEncrypt` (`id`,`email`,`encryptEmail`,`pfId`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?);
+Executing (default): INSERT INTO `emailEncrypt` (`id`,`email`,`encryptEmail`,`pfId`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?);
+Executing (default): INSERT INTO `emailEncrypt` (`id`,`email`,`encryptEmail`,`pfId`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?);
+Executing (default): INSERT INTO `emailEncrypt` (`id`,`email`,`encryptEmail`,`pfId`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?);
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `id`, `email` FROM `EmployeePF` AS `EmployeePF` WHERE (`EmployeePF`.`deletedDate` IS NULL AND (`EmployeePF`.`email` IS NOT NULL AND `EmployeePF`.`email` LIKE '%@%'));
+Executing (default): INSERT INTO `emailEncrypt` (`id`,`email`,`encryptEmail`,`pfId`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?);
+Executing (default): INSERT INTO `emailEncrypt` (`id`,`email`,`encryptEmail`,`pfId`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?);
+Executing (default): INSERT INTO `emailEncrypt` (`id`,`email`,`encryptEmail`,`pfId`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?);
+Executing (default): INSERT INTO `emailEncrypt` (`id`,`email`,`encryptEmail`,`pfId`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?);
+Executing (default): INSERT INTO `emailEncrypt` (`id`,`email`,`encryptEmail`,`pfId`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?);

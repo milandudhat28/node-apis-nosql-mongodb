@@ -1,0 +1,8 @@
+node_modules/
+package-lock.json
+.vscode/
+*.sql
+public/uploads/
+config/database.json
+.env
+PM2_Start_Script.sh

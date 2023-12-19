@@ -1,0 +1,58 @@
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `UserPermissions`.`id`, `UserPermissions`.`view`, `UserPermissions`.`create`, `UserPermissions`.`update`, `UserPermissions`.`delete`, `UserPermissions`.`moduleId`, `UserPermissions`.`roleId`, `UserPermissions`.`createdDate`, `UserPermissions`.`updatedDate`, `UserPermissions`.`deletedDate`, `userModule`.`id` AS `userModule.id`, `userModule`.`moduleKey` AS `userModule.moduleKey` FROM `UserPermissions` AS `UserPermissions` LEFT OUTER JOIN `UserModules` AS `userModule` ON `UserPermissions`.`moduleId` = `userModule`.`id` AND (`userModule`.`deletedDate` IS NULL) WHERE (`UserPermissions`.`deletedDate` IS NULL AND (`UserPermissions`.`roleId` = 3 AND `UserPermissions`.`create` = true AND `userModule`.`moduleKey` LIKE 'workFlow')) LIMIT 1;
+Executing (default): SELECT `id`, `emailTemplateId`, `candidateStatusId`, `candidateStateId`, `status`, `createdDate`, `updatedDate`, `deletedDate` FROM `workFlowForEmail` AS `workFlowForEmail` WHERE (`workFlowForEmail`.`deletedDate` IS NULL AND (`workFlowForEmail`.`candidateStatusId` = 1 AND `workFlowForEmail`.`candidateStateId` = 15));
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `UserPermissions`.`id`, `UserPermissions`.`view`, `UserPermissions`.`create`, `UserPermissions`.`update`, `UserPermissions`.`delete`, `UserPermissions`.`moduleId`, `UserPermissions`.`roleId`, `UserPermissions`.`createdDate`, `UserPermissions`.`updatedDate`, `UserPermissions`.`deletedDate`, `userModule`.`id` AS `userModule.id`, `userModule`.`moduleKey` AS `userModule.moduleKey` FROM `UserPermissions` AS `UserPermissions` LEFT OUTER JOIN `UserModules` AS `userModule` ON `UserPermissions`.`moduleId` = `userModule`.`id` AND (`userModule`.`deletedDate` IS NULL) WHERE (`UserPermissions`.`deletedDate` IS NULL AND (`UserPermissions`.`roleId` = 3 AND `UserPermissions`.`create` = true AND `userModule`.`moduleKey` LIKE 'workFlow')) LIMIT 1;
+Executing (default): SELECT `id`, `emailTemplateId`, `candidateStatusId`, `candidateStateId`, `status`, `createdDate`, `updatedDate`, `deletedDate` FROM `workFlowForEmail` AS `workFlowForEmail` WHERE (`workFlowForEmail`.`deletedDate` IS NULL AND (`workFlowForEmail`.`candidateStatusId` = 1 AND `workFlowForEmail`.`candidateStateId` = 15));
+Executing (default): INSERT INTO `workFlowForEmail` (`id`,`emailTemplateId`,`candidateStatusId`,`candidateStateId`,`status`,`createdDate`,`updatedDate`) VALUES (DEFAULT,?,?,?,?,?,?);
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `UserPermissions`.`id`, `UserPermissions`.`view`, `UserPermissions`.`create`, `UserPermissions`.`update`, `UserPermissions`.`delete`, `UserPermissions`.`moduleId`, `UserPermissions`.`roleId`, `UserPermissions`.`createdDate`, `UserPermissions`.`updatedDate`, `UserPermissions`.`deletedDate`, `userModule`.`id` AS `userModule.id`, `userModule`.`moduleKey` AS `userModule.moduleKey` FROM `UserPermissions` AS `UserPermissions` LEFT OUTER JOIN `UserModules` AS `userModule` ON `UserPermissions`.`moduleId` = `userModule`.`id` AND (`userModule`.`deletedDate` IS NULL) WHERE (`UserPermissions`.`deletedDate` IS NULL AND (`UserPermissions`.`roleId` = 3 AND `UserPermissions`.`create` = true AND `userModule`.`moduleKey` LIKE 'workFlow')) LIMIT 1;
+Executing (default): SELECT `id`, `emailTemplateId`, `candidateStatusId`, `candidateStateId`, `status`, `createdDate`, `updatedDate`, `deletedDate` FROM `workFlowForEmail` AS `workFlowForEmail` WHERE (`workFlowForEmail`.`deletedDate` IS NULL AND (`workFlowForEmail`.`candidateStatusId` = 1 AND `workFlowForEmail`.`candidateStateId` = 15));
+Executing (default): INSERT INTO `workFlowForEmail` (`id`,`emailTemplateId`,`candidateStatusId`,`candidateStateId`,`status`,`createdDate`,`updatedDate`) VALUES (DEFAULT,?,?,?,?,?,?);
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `UserPermissions`.`id`, `UserPermissions`.`view`, `UserPermissions`.`create`, `UserPermissions`.`update`, `UserPermissions`.`delete`, `UserPermissions`.`moduleId`, `UserPermissions`.`roleId`, `UserPermissions`.`createdDate`, `UserPermissions`.`updatedDate`, `UserPermissions`.`deletedDate`, `userModule`.`id` AS `userModule.id`, `userModule`.`moduleKey` AS `userModule.moduleKey` FROM `UserPermissions` AS `UserPermissions` LEFT OUTER JOIN `UserModules` AS `userModule` ON `UserPermissions`.`moduleId` = `userModule`.`id` AND (`userModule`.`deletedDate` IS NULL) WHERE (`UserPermissions`.`deletedDate` IS NULL AND (`UserPermissions`.`roleId` = 3 AND `UserPermissions`.`create` = true AND `userModule`.`moduleKey` LIKE 'workFlow')) LIMIT 1;
+Executing (default): SELECT `id`, `emailTemplateId`, `candidateStatusId`, `candidateStateId`, `status`, `createdDate`, `updatedDate`, `deletedDate` FROM `workFlowForEmail` AS `workFlowForEmail` WHERE (`workFlowForEmail`.`deletedDate` IS NULL AND (`workFlowForEmail`.`candidateStatusId` = 1 AND `workFlowForEmail`.`candidateStateId` = 15));
+Executing (default): INSERT INTO `workFlowForEmail` (`id`,`emailTemplateId`,`candidateStatusId`,`candidateStateId`,`status`,`createdDate`,`updatedDate`) VALUES (DEFAULT,?,?,?,?,?,?);
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `UserPermissions`.`id`, `UserPermissions`.`view`, `UserPermissions`.`create`, `UserPermissions`.`update`, `UserPermissions`.`delete`, `UserPermissions`.`moduleId`, `UserPermissions`.`roleId`, `UserPermissions`.`createdDate`, `UserPermissions`.`updatedDate`, `UserPermissions`.`deletedDate`, `userModule`.`id` AS `userModule.id`, `userModule`.`moduleKey` AS `userModule.moduleKey` FROM `UserPermissions` AS `UserPermissions` LEFT OUTER JOIN `UserModules` AS `userModule` ON `UserPermissions`.`moduleId` = `userModule`.`id` AND (`userModule`.`deletedDate` IS NULL) WHERE (`UserPermissions`.`deletedDate` IS NULL AND (`UserPermissions`.`roleId` = 3 AND `UserPermissions`.`create` = true AND `userModule`.`moduleKey` LIKE 'workFlow')) LIMIT 1;
+Executing (default): SELECT `id`, `emailTemplateId`, `candidateStatusId`, `candidateStateId`, `status`, `createdDate`, `updatedDate`, `deletedDate` FROM `workFlowForEmail` AS `workFlowForEmail` WHERE (`workFlowForEmail`.`deletedDate` IS NULL AND (`workFlowForEmail`.`candidateStatusId` = 1 AND `workFlowForEmail`.`candidateStateId` = 15));

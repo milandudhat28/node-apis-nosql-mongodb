@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Poppins', sans-serif;
+        }
+        .pf-details{
+            padding: 6px 0;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        .employee-data{
+            padding: 10px 14px;
+            max-width: 550px; 
+            width:100%;
+        }
+        .employee-doucments-data{
+            padding: 10px 14px;
+            border:1px solid black;
+            max-width: 550px; 
+            width:100%;
+            margin-top: 20px;
+        }
+       
+        .employee-data tr td:nth-child(1),.employee-doucments-data tr td:nth-child(1){
+            min-width: 160px;
+            font-weight: 500;
+            text-transform: capitalize;
+            width: 180px;
+        }
+        .employee-data tr td:nth-child(2),.employee-doucments-data tr td:nth-child(2){
+            padding: 0px 4px;
+        }
+        .employee-data tr td:nth-child(3),.employee-doucments-data tr td:nth-child(3){
+            font-weight: 300;
+        }
+        .employee-data tr td,.employee-doucments-data tr td{
+            padding-bottom: 4px;
+            font-size: 13px;
+        }
+        .employee-data tr,.employee-doucments-data tr{
+            vertical-align: top;
+        }
+        .employee-details-page{
+            height: 680px;
+            vertical-align: top;
+        }
+        .employee-doucments-data{
+            page-break-before: always;
+        }
+        @media print {
+            /* .employee-details-page {page-break-after: always;} */
+            .employee-doucments-data{
+                page-break-before: always;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <table style="max-width: 550px; width:550px; margin: auto;border-spacing: 0;">
+            <tr>
+                <td style="padding: 0;">
+                    <div>
+                        <table align="center" style="width: 100%; text-align: center;border-spacing: 0; border: 1px solid #000;">
+                            <tr>
+                                <td>
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUoAAABaCAIAAABR6oh9AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFyWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNy4wLWMwMDAgNzkuMTM1N2M5ZSwgMjAyMS8wNy8xNC0wMDozOTo1NiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIyLjUgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMS0xMi0yOFQwOTo0MjowNyswNTozMCIgeG1wOk1vZGlmeURhdGU9IjIwMjEtMTItMjlUMTU6MTI6NTArMDU6MzAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMjEtMTItMjlUMTU6MTI6NTArMDU6MzAiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmVkNWM4OGY4LTJkYmUtYTE0NC05YjUwLTk4NmQwYzAyNWFlMiIgeG1wTU06RG9jdW1lbnRJRD0i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" alt="logo" width="35%">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 0;">
+                        <table align="center" style="width: 100%; text-align: center;border-spacing: 0; border-bottom: 1px solid #000;border-left: 1px solid #000;border-right: 1px solid #000;">
+                            <tr>
+                                <td class="pf-details">
+                                    PF DETAILS
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="employee-details-page" style="border: 1px solid black; border-top: 0;">
+                        <table class="employee-data">
+                            <tr>
+                                <td style="font-size: 15px; margin-bottom:10px;font-weight:500;"><u>Personal Details:</u></td>
+                            </tr>
+                            <tr>
+                                <td>UAN</td>
+                                <td>:</td>
+                                <td><%= uan %></td>
+                            </tr>
+                            <tr>
+                                <td>Employee Full Name</td>
+                                <td>:</td>
+                                <td><%= name %></td>
+                            </tr>
+                            <tr>
+                                <td>Date of Birth</td>
+                                <td>:</td>
+                                <td><%= dob %></td>
+                            </tr>
+                            <tr>
+                                <td>Present Address</td>
+                                <td>:</td>
+                                <td><%= present %></td>
+                            </tr>
+                            <tr>
+                                <td>Permanent Address</td>
+                                <td>:</td>
+                                <td><%= permanent %></td>
+                            </tr>
+                            <tr>
+                                <td>Mobile No</td>
+                                <td>:</td>
+                                <td><%= contact %></td>
+                            </tr>
+                            <tr>
+                                <td>Email ID</td>
+                                <td>:</td>
+                                <td><%= email %></td>
+                            </tr>
+                            <tr>
+                                <td>Marital Status</td>
+                                <td>:</td>
+                                <td><%= maritalStatus %></td>
+                            </tr>
+                            <tr>
+                                <td>Father’s Name & D.O.B </td>
+                                <td>:</td>
+                                <% if (fName){ %>
+                                    <td>
+                                        <%= fName %> 
+                                        <% if (fDOB){ %>
+                                            (<%= fDOB %>)
+                                        <% } %>
+                                    </td>
+                                <% }else{ %>
+                                    <td>
+                                        -
+                                    </td>
+                                <% } %>
+                            </tr>
+                            <tr>
+                                <td>Mother’s Name & D.O.B</td>
+                                <td>:</td>
+                                <% if (mName){ %>
+                                    <td>
+                                        <%= mName %> 
+                                        <% if (mDOB){ %>
+                                            (<%= mDOB %>)
+                                        <% } %>
+                                    </td>
+                                <% }else{ %>
+                                    <td>
+                                        -
+                                    </td>
+                                <% } %>
+                            </tr>
+                            <tr>
+                                <td>Husband’s Name & D.O.B</td>
+                                <td>:</td>
+                                <% if (hName){ %>
+                                    <td>
+                                        <%= hName %> 
+                                        <% if (hDOB){ %>
+                                            (<%= hDOB %>)
+                                        <% } %>
+                                    </td>
+                                <% }else{ %>
+                                    <td>
+                                        -
+                                    </td>
+                                <% } %>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table class="employee-doucments-data">
+                            <tr>
+                                <td style="font-size: 15px; margin-bottom:10px;font-weight:500;"><u>Documents:</u></td>
+                            </tr>
+                            <tr>
+                                <td>Pan Card Number</td>
+                                <td>:</td>
+                                <td><%= pan %></td>
+                            </tr>
+                            <tr>
+                                <td>Aadhar Card Number</td>
+                                <td>:</td>
+                                <td><%= aadhar %></td>
+                            </tr>
+                            <tr>
+                                <td>Bank Name</td>
+                                <td>:</td>
+                                <td><%= aadhar %></td>
+                            </tr>
+                            <tr>
+                                <td>Bank A/c Number</td>
+                                <td>:</td>
+                                <td><%= bankACNumber %></td>
+                            </tr>
+                            <tr>
+                                <td>IFSC Code</td>
+                                <td>:</td>
+                                <td><%= ifsc %></td>
+                            </tr>  
+                            <tr>
+                                <td>Election Card Number</td>
+                                <td>:</td>
+                                <td><%= eCardNumber %></td>
+                            </tr> 
+                            <tr>
+                                <td>License Number & Exp. Date</td>
+                                <td>:</td>
+                                <% if (licenceNumber){ %>
+                                    <td>
+                                        <%= licenceNumber %> 
+                                        <% if (licenceExp){ %>
+                                            (<%= licenceExp %>)
+                                        <% } %>
+                                    </td>
+                                <% }else{ %>
+                                    <td>
+                                        -
+                                    </td>
+                                <% } %>
+                            </tr>  
+                            <tr>
+                                <td>Ration Card Number</td>
+                                <td>:</td>
+                                <td><%= rationCardNumber %></td>
+                            </tr> 
+                            <tr>
+                                <td>Passport Number & Exp. Date</td>
+                                <td>:</td>
+                                <% if (passportNumber){ %>
+                                    <td>
+                                        <%= passportNumber %> 
+                                        <% if (passportExp){ %>
+                                            (<%= passportExp %>)
+                                        <% } %>
+                                    </td>
+                                <% }else{ %>
+                                    <td>
+                                        -
+                                    </td>
+                                <% } %>
+                            </tr>
+                            <tr>
+                                <td>Member Id</td>
+                                <td>:</td>
+                                <td><%= memberId %></td>
+                            </tr>
+                            <tr>
+                                <td>ESIC Number</td>
+                                <td>:</td>
+                                <td><%= esicNumber %></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </div>
+        </table>
+    </div>
+
+</body>
+</html>

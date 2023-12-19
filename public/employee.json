@@ -1,0 +1,917 @@
+{
+    "reqObj":{
+        "firstName": "",
+        "middleName": "" ,
+        "lastName": "",
+        "dateOfBirth": "1995-05-15 00: 00: 00",
+        "employeeImage": null,
+        "panCardImage": "uploads/employee/1645446582251-200x200.png",
+        "aadharCardImage": "uploads/employee/1645446582376-400x400.png",
+        "presentAddressImage": "uploads/employee/1645446582531-200x200.png",
+        "permanentAddressImage": "uploads/employee/1645446582532-200x200.png",
+        "gender": "M",
+        "bloodGroup": "o+",
+        "maritalStatus": "Single",
+        "referedBy": "",
+        "spouseName": "",
+        "contact": {
+            "contactNumber": "agQ+8jHG5qDSo94smnN8YQ==",
+            "alternateContactNumber": "VemM/N2qcVNX9nmyBztgPA==",
+            "linkedIn": "https://www.linkedin.com/temp",
+            "skype": "tempskype",
+            "companySkype": "tempcompskyp",
+            "emergencyContactName": "XYZ",
+            "relationWithEmployee": "Son",
+            "emergencyContactNumber": "uKtf9PwFOISHuiOXNsRiuA=="
+        },
+        "emails": [{
+          "type": "personal",
+          "email": "QlHqKBw3F7/JcyaZ5zr2qw=="
+        }],
+        "address": {
+            "presentStreetLine1": "New Street",
+            "presentStreetLine2": "Near Narmada ITC",
+            "presentCountry": "India",
+            "presentState": "Gujarat",
+            "presentCity": "Ahmadabad City",
+            "presentArea": "Sabarmati",
+            "presentZipCode": "380005",
+            "permenentStreetLine1": "New Street",
+            "permenentStreetLine2": "Near Narmada ITC",
+            "permenentCountry": "India",
+            "permenentState": "Gujarat",
+            "permenentCity": "Ahmadabad City",
+            "permenentArea": "Sabarmati",
+            "permenentZipCode": "380005"
+        },
+        "education": [
+            {
+                "educationTypeId": 16,
+                "courseId": 47,
+                "instituteName": "",
+                "instituteId": 39,
+                "percentage": "8.77",
+                "passingYear": "2020"
+            }
+        ],
+        "additionalCourse": [
+            {
+                "courseName": "Node",
+                "instituteName": "Test",
+                "certificateUrl": "http://www.google.com",
+                "technologies": [{
+                    "technologyId": 5
+                }]
+            }
+        ],
+        "experience": [
+            {
+                "companyId": 28,
+                "designationId": 19,
+                "from": "2021-01-01T12:26:35.000Z",
+                "to": "2021-12-31T12:26:42.000Z",
+                "reasonForJobChange": 9,
+                "reasonForProfessionalGap": "",
+                "technologies": [{
+                    "technologyId": 5
+                }],
+                "totalExperience": "1"
+            }
+        ],
+        "workDetails": {
+            "joiningDate": "2022-01-01T12:25:15.000Z",
+            "reJoiningDate": "2022-01-01T12:25:22.000Z",
+            "productionDate": "2022-04-01T18:30:00.000Z",
+            "technologyId": 5,
+            "departmentId": "",
+            "designationId": 19,
+            "teamLead": null,
+            "projectManager": null,
+            "bondDuration": "1",
+            "noticePeriod": 2,
+            "resignationDate": null,
+            "resignationAcceptanceDate": null,
+            "relievingDate": null,
+            "appraisalCycle": "Cycle1",
+            "employeeType": "",
+            "currentCTC": ""
+        },
+        "checklists": {
+            "isPhotoProof": true,
+            "isResidentialAddress": true,
+            "isBachelorCertificates": true,
+            "isPassportSizePhotos": false,
+            "isServiceAggrement": false,
+            "isMasterCertificates": true,
+            "isLast3MonthsSalarySlip": false,
+            "isExpAndRelLetter": false
+        },
+        "documents": {
+            "aadharCardNumber": "432143214321",
+            "panCardNumber": "ABCDE1234F",
+            "bankName": 2,
+            "bankAccountNumber": "123123123123123",
+            "IFSCCode": "BARB0AHMEDA"
+        },
+        "pf": {
+            "underPF": false,
+            "underESIC": true,
+            "name": null,
+            "isFatherName": null,
+            "middleName": null,
+            "dob": null,
+            "gender": null,
+            "maritalStatus": null,
+            "email": null,
+            "mobileNumber": null,
+            "earlierMemberOfEPF1952": null,
+            "earlierMemberOfEPension1995": null,
+            "UAN": null,
+            "previousPFNumber": null,
+            "dateExitFromPreviosDevelopment": null,
+            "schemeCertificateNumber": null,
+            "pensionPaymentOrderNumber": null,
+            "internationalWorker": null,
+            "country": null,
+            "passportNumber": null,
+            "passportValidityFrom": null,
+            "passportValidityTo": null,
+            "bankAccountNumber": null,
+            "IFSC": null,
+            "aadharNumber": null,
+            "panNumber": null
+        },
+        "departments": [{
+            "departmentId": 10
+        }],
+        "toBeDeletedPresentAddress": null,
+        "toBeDeletedPermanentAddress": null,
+        "toBeDeletedBachelorCertificates": [],
+        "toBeDeletedMasterCertificates": [],
+        "isActive": true,
+        "bachelorCertificates": ["uploads/employee/1645446582971-400x400.png"],
+        "masterCertificates": ["uploads/employee/1645446583061-400x400.png"]
+    },
+    "dataArr": [
+        {
+          "firstName": "Aashruti",
+          "lastName": "Prajapati"
+        },
+        {
+          "firstName": "Aayusha",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Abdul",
+          "lastName": "Bhadarka"
+        },
+        {
+          "firstName": "Abhigna",
+          "lastName": "Hirani"
+        },
+        {
+          "firstName": "Abhishek",
+          "lastName": "Chauhan"
+        },
+        {
+          "firstName": "Aditya",
+          "lastName": "Panchal"
+        },
+        {
+          "firstName": "Aekta",
+          "lastName": "Hridhi"
+        },
+        {
+          "firstName": "Aftab",
+          "lastName": "Arbiyani"
+        },
+        {
+          "firstName": "Ahtesham",
+          "lastName": "Mansuri"
+        },
+        {
+          "firstName": "Akash",
+          "lastName": "Patil"
+        },
+        {
+          "firstName": "Akhilesh",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Anand",
+          "lastName": "Kothari"
+        },
+        {
+          "firstName": "Anisha",
+          "lastName": "Shah"
+        },
+        {
+          "firstName": "Anjali",
+          "lastName": "Sharma"
+        },
+        {
+          "firstName": "Anjali",
+          "lastName": "Parmar"
+        },
+        {
+          "firstName": "Anjali",
+          "lastName": "Sharma_SD"
+        },
+        {
+          "firstName": "Ankita",
+          "lastName": "Delvadiya"
+        },
+        {
+          "firstName": "Anuja",
+          "lastName": "Bhatt"
+        },
+        {
+          "firstName": "Baijun",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Bansi",
+          "lastName": "Gami"
+        },
+        {
+          "firstName": "Bhakti",
+          "lastName": "Vagadia"
+        },
+        {
+          "firstName": "Bhavesh",
+          "lastName": "Panchal"
+        },
+        {
+          "firstName": "Bhoomi",
+          "lastName": "Munjyasara"
+        },
+        {
+          "firstName": "Chandani",
+          "lastName": "Maniyar"
+        },
+        {
+          "firstName": "Chandni",
+          "lastName": "Parikh"
+        },
+        {
+          "firstName": "Chirag",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Chirag",
+          "lastName": "Nandaniya"
+        },
+        {
+          "firstName": "Chirag",
+          "lastName": "Gupta"
+        },
+        {
+          "firstName": "Chirag",
+          "lastName": "Thakor"
+        },
+        {
+          "firstName": "Chirag",
+          "lastName": "Gohil"
+        },
+        {
+          "firstName": "Chirag",
+          "lastName": "Kanjariya"
+        },
+        {
+          "firstName": "Darshan",
+          "lastName": "Tandel"
+        },
+        {
+          "firstName": "Darshan",
+          "lastName": "Marvania"
+        },
+        {
+          "firstName": "Deep",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Dev",
+          "lastName": "Jethava"
+        },
+        {
+          "firstName": "Devansh",
+          "lastName": "Shah"
+        },
+        {
+          "firstName": "Dhanya",
+          "lastName": "Nair"
+        },
+        {
+          "firstName": "Dhara",
+          "lastName": "Anovadiya"
+        },
+        {
+          "firstName": "Dhara",
+          "lastName": "Parekh"
+        },
+        {
+          "firstName": "Dharmik",
+          "lastName": "Kotak"
+        },
+        {
+          "firstName": "Dhaval",
+          "lastName": "Pandya"
+        },
+        {
+          "firstName": "Dishant",
+          "lastName": "Navadiya"
+        },
+        {
+          "firstName": "Dreeshita",
+          "lastName": "Gohel"
+        },
+        {
+          "firstName": "Foram",
+          "lastName": "Joshi"
+        },
+        {
+          "firstName": "Francy",
+          "lastName": "Thacker"
+        },
+        {
+          "firstName": "Gaurav",
+          "lastName": "Mistry"
+        },
+        {
+          "firstName": "Harishchandra",
+          "lastName": "Varma"
+        },
+        {
+          "firstName": "Harsh",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Harshal",
+          "lastName": "Nirmal"
+        },
+        {
+          "firstName": "Hasina",
+          "lastName": "Ansari"
+        },
+        {
+          "firstName": "Heta",
+          "lastName": "Shah"
+        },
+        {
+          "firstName": "Himani",
+          "lastName": "Sharma"
+        },
+        {
+          "firstName": "Hiren",
+          "lastName": "Savaliya"
+        },
+        {
+          "firstName": "Hirenkumar",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Hitesh",
+          "lastName": "Chavda"
+        },
+        {
+          "firstName": "Jagdish",
+          "lastName": "Makwana"
+        },
+        {
+          "firstName": "Jagdishkumar",
+          "lastName": "Barot"
+        },
+        {
+          "firstName": "Jagruti",
+          "lastName": "Patil"
+        },
+        {
+          "firstName": "Jay",
+          "lastName": "Piparava"
+        },
+        {
+          "firstName": "Jaydeep",
+          "lastName": "Suhagiya"
+        },
+        {
+          "firstName": "Jaydip",
+          "lastName": "Darji"
+        },
+        {
+          "firstName": "Jeegar",
+          "lastName": "Bamania"
+        },
+        {
+          "firstName": "Jemish",
+          "lastName": "Kakadiya"
+        },
+        {
+          "firstName": "Jenish",
+          "lastName": "Dhaduk"
+        },
+        {
+          "firstName": "Jignesh",
+          "lastName": "Ansodariya"
+        },
+        {
+          "firstName": "Juhi",
+          "lastName": "Verma"
+        },
+        {
+          "firstName": "Jyot",
+          "lastName": "Hathi"
+        },
+        {
+          "firstName": "Kalpana",
+          "lastName": "Thakkar"
+        },
+        {
+          "firstName": "Kashyap",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Kashyap",
+          "lastName": "Rajput"
+        },
+        {
+          "firstName": "Kenil",
+          "lastName": "Padmani"
+        },
+        {
+          "firstName": "Ketan",
+          "lastName": "Vaghela"
+        },
+        {
+          "firstName": "Keval",
+          "lastName": "Kavathiya"
+        },
+        {
+          "firstName": "Keyur",
+          "lastName": "Solanki"
+        },
+        {
+          "firstName": "Khodidas",
+          "lastName": "Gamdha"
+        },
+        {
+          "firstName": "Kopal",
+          "lastName": "Bhatnagar"
+        },
+        {
+          "firstName": "Krati",
+          "lastName": "Jain"
+        },
+        {
+          "firstName": "Krunal",
+          "lastName": "Ambaliya"
+        },
+        {
+          "firstName": "Krupali",
+          "lastName": "Vithlani"
+        },
+        {
+          "firstName": "Madhav",
+          "lastName": "Muralidhar"
+        },
+        {
+          "firstName": "Mahendiali",
+          "lastName": "Dodiya"
+        },
+        {
+          "firstName": "Maitri",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Maitri",
+          "lastName": "Majithiya"
+        },
+        {
+          "firstName": "Manasvi",
+          "lastName": "Parekh"
+        },
+        {
+          "firstName": "Manojkumar",
+          "lastName": "Gohil"
+        },
+        {
+          "firstName": "Mayur",
+          "lastName": "Purushvani"
+        },
+        {
+          "firstName": "Meet",
+          "lastName": "Kapadiya"
+        },
+        {
+          "firstName": "Mehul",
+          "lastName": "Parmar"
+        },
+        {
+          "firstName": "Mihir",
+          "lastName": "Shah"
+        },
+        {
+          "firstName": "Milan",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Milind",
+          "lastName": "Kansagara"
+        },
+        {
+          "firstName": "Minesh",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Mital",
+          "lastName": "Thakkar"
+        },
+        {
+          "firstName": "Mitish",
+          "lastName": "Karia"
+        },
+        {
+          "firstName": "Mohammad",
+          "lastName": "Bharmal"
+        },
+        {
+          "firstName": "Mohil",
+          "lastName": "Trambadiya"
+        },
+        {
+          "firstName": "Mox",
+          "lastName": "Shah"
+        },
+        {
+          "firstName": "Naeem",
+          "lastName": "Valiyani"
+        },
+        {
+          "firstName": "Naitik",
+          "lastName": "Raval"
+        },
+        {
+          "firstName": "Nayan",
+          "lastName": "Marwadi"
+        },
+        {
+          "firstName": "Nidhi",
+          "lastName": "Chauhan"
+        },
+        {
+          "firstName": "Nihar",
+          "lastName": "Joshi"
+        },
+        {
+          "firstName": "Niharika",
+          "lastName": "Shrivastava"
+        },
+        {
+          "firstName": "Nikhil",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Nikita",
+          "lastName": "Savaliya"
+        },
+        {
+          "firstName": "Nikul",
+          "lastName": "Doshi"
+        },
+        {
+          "firstName": "Nimit",
+          "lastName": "Bhagat"
+        },
+        {
+          "firstName": "Niraj",
+          "lastName": "Joshi"
+        },
+        {
+          "firstName": "Nirali",
+          "lastName": "Gajera"
+        },
+        {
+          "firstName": "Nirav",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Nishant",
+          "lastName": "Oza"
+        },
+        {
+          "firstName": "Palak",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Palak",
+          "lastName": "Makwana"
+        },
+        {
+          "firstName": "Palak",
+          "lastName": "Manek"
+        },
+        {
+          "firstName": "Paras",
+          "lastName": "Adeshra"
+        },
+        {
+          "firstName": "Parash",
+          "lastName": "Soni"
+        },
+        {
+          "firstName": "Parth",
+          "lastName": "Jethva"
+        },
+        {
+          "firstName": "Parth",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Payal",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Pinak",
+          "lastName": "Kushakiya"
+        },
+        {
+          "firstName": "Prakash",
+          "lastName": "Lakhara"
+        },
+        {
+          "firstName": "Prathmesh",
+          "lastName": "Bhavsar"
+        },
+        {
+          "firstName": "Pratik",
+          "lastName": "Jha"
+        },
+        {
+          "firstName": "Pratik",
+          "lastName": "Agrawal"
+        },
+        {
+          "firstName": "Prince",
+          "lastName": "Kandolia"
+        },
+        {
+          "firstName": "Princy",
+          "lastName": "Christian"
+        },
+        {
+          "firstName": "Pritee",
+          "lastName": "Maheta"
+        },
+        {
+          "firstName": "Priti",
+          "lastName": "Shah"
+        },
+        {
+          "firstName": "Priya",
+          "lastName": "Sabhaya"
+        },
+        {
+          "firstName": "Priyanka",
+          "lastName": "Soni"
+        },
+        {
+          "firstName": "Rahul",
+          "lastName": "Kanani"
+        },
+        {
+          "firstName": "Raj",
+          "lastName": "Kandolia"
+        },
+        {
+          "firstName": "Rajan",
+          "lastName": "Vasani"
+        },
+        {
+          "firstName": "Rajnik",
+          "lastName": "Trapasiya"
+        },
+        {
+          "firstName": "Ramiz",
+          "lastName": "Sarvaiya"
+        },
+        {
+          "firstName": "RamlakhanSingh",
+          "lastName": "Lodhi"
+        },
+        {
+          "firstName": "Ramola",
+          "lastName": "Gupta"
+        },
+        {
+          "firstName": "Ravi",
+          "lastName": "Parmar"
+        },
+        {
+          "firstName": "Ravi",
+          "lastName": "Joshi"
+        },
+        {
+          "firstName": "Ravikumar",
+          "lastName": "Valani"
+        },
+        {
+          "firstName": "Renil",
+          "lastName": "Soni"
+        },
+        {
+          "firstName": "Rima",
+          "lastName": "Chauhan"
+        },
+        {
+          "firstName": "Rima",
+          "lastName": "Jogani"
+        },
+        {
+          "firstName": "Rohan",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Rohit",
+          "lastName": "Lalwani"
+        },
+        {
+          "firstName": "Rohit",
+          "lastName": "Kotadiya"
+        },
+        {
+          "firstName": "Ronak",
+          "lastName": "Rafaliya"
+        },
+        {
+          "firstName": "Ruchir",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Ruchita",
+          "lastName": "Salunke"
+        },
+        {
+          "firstName": "Sagar",
+          "lastName": "Jadav"
+        },
+        {
+          "firstName": "Sagar",
+          "lastName": "Gadher"
+        },
+        {
+          "firstName": "Sakshi",
+          "lastName": "Gautam"
+        },
+        {
+          "firstName": "Saloni",
+          "lastName": "Sindhi"
+        },
+        {
+          "firstName": "Saloni",
+          "lastName": "Maheshwari"
+        },
+        {
+          "firstName": "Samanta",
+          "lastName": "Thakur"
+        },
+        {
+          "firstName": "Sapna",
+          "lastName": "Vala"
+        },
+        {
+          "firstName": "Saraju",
+          "lastName": "Desai"
+        },
+        {
+          "firstName": "Shefalee",
+          "lastName": "Vangani"
+        },
+        {
+          "firstName": "Shikha",
+          "lastName": "Rathod"
+        },
+        {
+          "firstName": "Shlok",
+          "lastName": "Shah"
+        },
+        {
+          "firstName": "Shrey",
+          "lastName": "Bathani"
+        },
+        {
+          "firstName": "Shreya",
+          "lastName": "Gokani"
+        },
+        {
+          "firstName": "Shrijeet",
+          "lastName": "Waghela"
+        },
+        {
+          "firstName": "Shubham",
+          "lastName": "Modi"
+        },
+        {
+          "firstName": "Shubham",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Shyam",
+          "lastName": "Topiya"
+        },
+        {
+          "firstName": "Sudhir",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Sumitkumar",
+          "lastName": "Sapoliya"
+        },
+        {
+          "firstName": "Sweta",
+          "lastName": "Panchal"
+        },
+        {
+          "firstName": "Tanay",
+          "lastName": "Shah"
+        },
+        {
+          "firstName": "Tejashkumar",
+          "lastName": "Prajapati"
+        },
+        {
+          "firstName": "Tilak",
+          "lastName": "Pandya"
+        },
+        {
+          "firstName": "Tushar",
+          "lastName": "Goyani"
+        },
+        {
+          "firstName": "Umang",
+          "lastName": "Chavda"
+        },
+        {
+          "firstName": "Urvik",
+          "lastName": "Patel"
+        },
+        {
+          "firstName": "Vaibhavkumar",
+          "lastName": "Maheshwari"
+        },
+        {
+          "firstName": "Vaishnavi",
+          "lastName": "Pandit"
+        },
+        {
+          "firstName": "Vanshika",
+          "lastName": "Agarwal"
+        },
+        {
+          "firstName": "Vijay",
+          "lastName": "Dhobi"
+        },
+        {
+          "firstName": "Vimal",
+          "lastName": "Pansuriya"
+        },
+        {
+          "firstName": "Vipul",
+          "lastName": "Gorana"
+        },
+        {
+          "firstName": "Virag",
+          "lastName": "Jain"
+        },
+        {
+          "firstName": "Virendra",
+          "lastName": "Maheta"
+        },
+        {
+          "firstName": "Visarg",
+          "lastName": "Suthar"
+        },
+        {
+          "firstName": "Vishal",
+          "lastName": "Peshavariya"
+        },
+        {
+          "firstName": "Vivek",
+          "lastName": "Alagiya"
+        },
+        {
+          "firstName": "Yash",
+          "lastName": "Parvani"
+        },
+        {
+          "firstName": "Yashkumar",
+          "lastName": "Prajapati"
+        },
+        {
+          "firstName": "Yesha",
+          "lastName": "Vaishnav"
+        },
+        {
+          "firstName": "Utsav",
+          "lastName": "Patel"
+        }
+      ]
+}

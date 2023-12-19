@@ -1,0 +1,77 @@
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `id`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `gender`, `spouseName`, `maritalStatus`, `candidateImage`, `candidateResume`, `referedBy`, `wishlist`, `contactNumber`, `alternateContactNumber`, `email`, `github`, `portfolioWebsite`, `skype`, `linkedIn`, `isActive`, `interviewStatusId`, `totalExperience`, `joiningDate`, `reJoiningDate`, `productionDate`, `offerDate`, `designationId`, `technologies`, `employeeId`, `oldId`, `onboardingUrl`, `onboardingInvition`, `onboardingInvitionSendDate`, `onboardingProcessStatus`, `onboardingProcessManagerId`, `onboardingProcessManagerName`, `onboardingUrlPassword`, `createdDate`, `updatedDate`, `deletedDate` FROM `Candidates` AS `Candidates` WHERE (`Candidates`.`deletedDate` IS NULL AND `Candidates`.`id` = '130');
+Executing (default): UPDATE `Candidates` SET `onboardingUrl`=?,`onboardingInvition`=?,`onboardingInvitionSendDate`=?,`onboardingProcessStatus`=?,`onboardingProcessManagerId`=?,`onboardingUrlPassword`=?,`onboardingProcessManagerName`=?,`updatedDate`=? WHERE (`deletedDate` IS NULL AND `id` = ?)
+Executing (default): SELECT `id`, `firstName`, `lastName`, `contactNumber`, `email`, `onboardingUrl`, `onboardingInvitionSendDate`, `onboardingProcessStatus`, `onboardingProcessManagerId`, `onboardingProcessManagerName` FROM `Candidates` AS `Candidates` WHERE (`Candidates`.`deletedDate` IS NULL AND `Candidates`.`onboardingInvition` = '1');
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SELECT 1+1 AS result
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `id`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `gender`, `spouseName`, `maritalStatus`, `candidateImage`, `candidateResume`, `referedBy`, `wishlist`, `contactNumber`, `alternateContactNumber`, `email`, `github`, `portfolioWebsite`, `skype`, `linkedIn`, `isActive`, `interviewStatusId`, `totalExperience`, `joiningDate`, `reJoiningDate`, `productionDate`, `offerDate`, `designationId`, `technologies`, `employeeId`, `oldId`, `onboardingUrl`, `onboardingInvition`, `onboardingInvitionSendDate`, `onboardingProcessStatus`, `onboardingProcessManagerId`, `onboardingProcessManagerName`, `onboardingUrlPassword`, `createdDate`, `updatedDate`, `deletedDate` FROM `Candidates` AS `Candidates` WHERE (`Candidates`.`deletedDate` IS NULL AND (`Candidates`.`id` = '130' AND `Candidates`.`onboardingUrlPassword` = 'A27CbL'));
+Executing (default): SELECT `id`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `gender`, `spouseName`, `maritalStatus`, `candidateImage`, `candidateResume`, `referedBy`, `wishlist`, `contactNumber`, `alternateContactNumber`, `email`, `github`, `portfolioWebsite`, `skype`, `linkedIn`, `isActive`, `interviewStatusId`, `totalExperience`, `joiningDate`, `reJoiningDate`, `productionDate`, `offerDate`, `designationId`, `technologies`, `employeeId`, `oldId`, `onboardingUrl`, `onboardingInvition`, `onboardingInvitionSendDate`, `onboardingProcessStatus`, `onboardingProcessManagerId`, `onboardingProcessManagerName`, `onboardingUrlPassword`, `createdDate`, `updatedDate`, `deletedDate` FROM `Candidates` AS `Candidates` WHERE (`Candidates`.`deletedDate` IS NULL AND (`Candidates`.`id` = '130' AND `Candidates`.`onboardingUrlPassword` = 'A27CbL'));
+Executing (default): SELECT `id`, `firstName`, `lastName`, `contactNumber`, `email`, `onboardingUrl`, `onboardingInvitionSendDate`, `onboardingProcessStatus`, `onboardingProcessManagerId`, `onboardingProcessManagerName` FROM `Candidates` AS `Candidates` WHERE (`Candidates`.`deletedDate` IS NULL AND `Candidates`.`onboardingInvition` = '1');
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `id`, `firstName`, `lastName`, `contactNumber`, `email`, `onboardingUrl`, `onboardingInvitionSendDate`, `onboardingProcessStatus`, `onboardingProcessManagerId`, `onboardingProcessManagerName` FROM `Candidates` AS `Candidates` WHERE (`Candidates`.`deletedDate` IS NULL AND `Candidates`.`onboardingInvition` = '1');
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `id`, `firstName`, `lastName`, `contactNumber`, `email`, `onboardingUrl`, `onboardingInvitionSendDate`, `onboardingProcessStatus`, `onboardingProcessManagerId`, `onboardingProcessManagerName` FROM `Candidates` AS `Candidates` WHERE (`Candidates`.`deletedDate` IS NULL AND `Candidates`.`onboardingInvition` = '1');
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'SequelizeMeta' AND TABLE_SCHEMA = 'HRMS'
+Executing (default): SHOW INDEX FROM `SequelizeMeta`
+Executing (default): SELECT `name` FROM `SequelizeMeta` AS `SequelizeMeta` ORDER BY `SequelizeMeta`.`name` ASC;
+Executing (default): SELECT `id`, `firstName`, `lastName`, `contactNumber`, `email`, `onboardingUrl`, `onboardingInvitionSendDate`, `onboardingProcessStatus`, `onboardingProcessManagerId`, `onboardingProcessManagerName` FROM `Candidates` AS `Candidates` WHERE (`Candidates`.`deletedDate` IS NULL AND `Candidates`.`onboardingInvition` = '1');
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update
+Not overriding built-in method from model attribute: update

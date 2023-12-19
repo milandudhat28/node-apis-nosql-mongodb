@@ -1,0 +1,9 @@
+[  
+  {
+    "path": "/test",
+    "method": "get",
+    "action": "test.test",
+    "middlewares": [],
+    "pathFromRoot": false
+  }
+]

@@ -1,0 +1,22 @@
+image: node
+ 
+cache:
+  paths:
+    - node_modules/
+ 
+before_script:
+  - apt-get update -qq && apt-get install -y -qq sshpass rsync
+ 
+deploy_development:
+  only:
+    refs:
+      - develop
+  stage: deploy
+  environment: develop
+  script:
+    - sshpass -V
+    - export SSHPASS=$USER_PASS 
+    - sshpass -e ssh -o StrictHostKeyChecking=no -p65022 $USER_NAME@$SERVER_IP "cd /var/www/html/wwwroot/nodejs/HRMS/development && git checkout develop && git pull"
+    
+    - export SSHPASS=$PM2_PASS
+    - sshpass -e ssh -o StrictHostKeyChecking=no -p65022 $PM2_USER@$SERVER_IP bash /var/www/html/wwwroot/nodejs/HRMS/development/PM2_Start_Script.sh
